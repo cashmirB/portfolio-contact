@@ -1,0 +1,203 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #f9f7fe;
+  --primary-font-family: "Nunito", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
+
+.index-banner {
+  margin: 90px 0;
+  padding: 70px 40px;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/04/96/35/41/1000_F_496354149_PXBCwImCfmmfXTuzKVJgFSAarsuZXBOs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-banner h1,
+p {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: bold;
+}
+
+.index-banner h1 {
+  font-size: 66px;
+  margin-bottom: 30px;
+}
+
+.index-banner p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.homepage h3 {
+  font-family: var(--primary-font-family);
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.content h1 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  margin: 90px 0;
+}
+
+.content h2 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  text-align: left;
+  padding: 40px 0;
+}
+
+.content h4 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content p {
+  color: black;
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  line-height: 2;
+}
+
+.content h3 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.content h6 {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content h5 {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.recipe-photo img {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content .about-banner {
+  margin-bottom: 90px;
+}
+
+.content-recipe {
+  margin-bottom: 80px;
+}
+
+.about-banner .about-info {
+  padding-left: 15px;
+}
+
+.about-banner .follow-link {
+  font-size: 18px;
+  padding: 40px 0;
+  font-weight: bold;
+  font-family: var(--primary-font-family);
+}
+
+.about-banner .icon {
+  padding: 0 20px;
+}
+
+hr {
+  border-top: 1px dashed #67d5d2;
+}
+
+.contact-details {
+  padding: 60px 40px;
+}
+
+.contact-details h6 {
+  color: #662eed;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: left;
+}
+
+.contact-info a {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+@media (max-width: 810px) {
+  .index-banner {
+    background-image: none;
+    background-color: #948500;
+  }
+
+  .index-banner h1 {
+    font-size: 46px;
+  }
+
+  .homepage h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .index-banner p {
+    font-size: 20px;
+  }
+
+  .homepage img {
+    width: 330px;
+  }
+
+  .content h1 {
+    font-size: 46px;
+  }
+
+  .content .about-info {
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .recipe-photo img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact-details h6 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    text-align: center;
+  }
+}
